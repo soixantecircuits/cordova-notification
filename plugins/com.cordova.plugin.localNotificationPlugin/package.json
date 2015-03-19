@@ -1,0 +1,21 @@
+{
+    "version": "2.1.1",
+    "name": "com.cordova.plugin.localnotificationplugin",
+    "cordova_name": "Local Notification Plugin",
+    "description": "This plugin allows you to add, queue, cancel by id and cancel all local notifications.",
+    "license": "MIT",
+    "keywords": [
+        "local",
+        " notification",
+        " notifications"
+    ],
+    "platforms": [
+        "android"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0.0"
+        }
+    ]
+}

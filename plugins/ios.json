@@ -1,0 +1,24 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"LocalNotification\"><param name=\"ios-package\" value=\"com.cordova.plugin.localNotification.LocalNotification\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+    },
+    "installed_plugins": {
+      "com.cordova.plugin.localNotificationPlugin": {
+          "PACKAGE_NAME": "io.cordova.hellocordova"
+      },
+    "dependent_plugins": {}
+}
