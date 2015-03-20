@@ -14,6 +14,8 @@ Then, add the platform you want to support:
 cordova platform add android ios
 ```
 
+You'll probably want to use a [socket event emitter](https://github.com/hugohil/socketio-event-emitter) to trigger test events
+
 ## Usage
 
 ```
